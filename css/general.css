@@ -33,11 +33,12 @@ body {
 
 header {
     overflow: hidden;
-    background-color: white;
-}
+    background-color: grey;
+    }
 
 .logo {
-    height:7rem;
+    height:6rem;
+    background-color:white;
 }
 .billboard {
     height: 17rem;
@@ -46,12 +47,36 @@ header {
     background-image: url(../images/mallickbillboard.jpg);
     background-repeat: no-repeat;
     background-position: center top;
-    background-color: grey;
+    background-color: #669999;
 }
 h1 {
-    font-size: 3.9rem;
+    font-size: 3.4rem;
     text-align: center;
     text-transform:uppercase;
+    font-family: "Arial Black", Arial, Sans-Serif;
+    opacity: .6;
+    margin: 2rem 3%;
+}
+
+.headingbox {
+    background-color: white;
+    overflow:hidden;
+    margin: 1rem 5%;
+    text-align: center;
+    border-radius: .8rem;
+    box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
+    border-style:solid;
+    font-family: Arial, "Arial Bold", Sans-Serif
+}
+
+div + p {
+    font-size: 1.5rem;
+    margin: 1rem 5% 1rem;
+    
+    
+    
+    
+    
     
     
         
