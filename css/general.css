@@ -66,12 +66,23 @@ h1 {
     border-radius: .8rem;
     box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
     border-style:solid;
-    font-family: Arial, "Arial Bold", Sans-Serif
+    font-family: Arial, "Arial Bold", Sans-Serif;
 }
 
 div + p {
     font-size: 1.5rem;
     margin: 1rem 5% 1rem;
+    font-family: Arial, "Arial Bold", Sans-Serif;
+}
+hr {
+    margin:2rem 5%;
+}
+
+hr + p {
+    margin: 2rem 5%;
+}
+    
+    
     
     
     
