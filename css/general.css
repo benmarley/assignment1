@@ -30,3 +30,24 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo {
+    height:7rem;
+    width: auto;
+}
+.billboard {
+    background-size: 50rem;
+    overflow: hidden;
+    background-image: url(../images/mallickbillboard.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+    
+        
+    
+    
