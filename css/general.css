@@ -38,15 +38,21 @@ header {
 
 .logo {
     height:7rem;
-    width: auto;
 }
 .billboard {
+    height: 17rem;
     background-size: 50rem;
     overflow: hidden;
     background-image: url(../images/mallickbillboard.jpg);
     background-repeat: no-repeat;
     background-position: center top;
+    background-color: grey;
 }
+h1 {
+    font-size: 3.9rem;
+    text-align: center;
+    text-transform:uppercase;
+    
     
         
     
