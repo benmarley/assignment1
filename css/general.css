@@ -38,7 +38,7 @@ header {
 
 .logo {
     height:6rem;
-    background-color:white;
+    background-color: white;
 }
 .billboard {
     height: 17rem;
@@ -74,12 +74,28 @@ div + p {
     margin: 1rem 5% 1rem;
     font-family: Arial, "Arial Bold", Sans-Serif;
 }
+
 hr {
     margin:2rem 5%;
 }
 
 hr + p {
     margin: 2rem 5%;
+}
+
+footer {
+    overflow: hidden;
+    background-color:grey;
+    margin: 1rem;
+    padding: 1rem 5% 3rem;
+}
+
+.logofooter{
+    height:6rem;
+    background-color: white;
+}
+    p {
+    overflow: hidden;
 }
     
     
