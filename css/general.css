@@ -19,6 +19,7 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    
 }
 
 img {
@@ -33,7 +34,8 @@ body {
 
 header {
     overflow: hidden;
-    background-color: black;
+    background-image: url(../images/backgroundnoisepattern.jpg);
+    background-size: 18rem
     }
 
 .logo {
