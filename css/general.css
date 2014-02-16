@@ -35,7 +35,7 @@ body {
 header {
     overflow: hidden;
     background-image: url(../images/backgroundnoisepattern.jpg);
-    background-size: 18rem
+    background-size: 20rem
     }
 
 .logo {
@@ -46,10 +46,10 @@ header {
     margin:1.5rem auto;
 }
 .billboard {
-    height: 17rem;
+    height: 23rem;
     background-size: 50rem;
     overflow: hidden;
-    background-image: url(../images/mallickbillboard.jpg);
+    background-image: url(../images/billboardimage.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-color: #669999;
