@@ -33,12 +33,15 @@ body {
 
 header {
     overflow: hidden;
-    background-color: grey;
+    background-color: black;
     }
 
 .logo {
     height:6rem;
     background-color: white;
+    width: auto;
+    padding: 0 2.5% 0;
+    margin:1.5rem auto;
 }
 .billboard {
     height: 17rem;
@@ -71,33 +74,46 @@ h1 {
 
 div + p {
     font-size: 1.5rem;
-    margin: 1rem 5% 1rem;
+    margin: 3rem 5% 1rem;
     font-family: Arial, "Arial Bold", Sans-Serif;
 }
 
 hr {
-    margin:2rem 5%;
+    margin:2rem 10%;
 }
 
 hr + p {
-    margin: 2rem 5%;
+    margin: 3rem 5%;
+    line-height: 1.5rem
 }
 
 footer {
     overflow: hidden;
     background-color:grey;
-    margin: 1rem;
-    padding: 1rem 5% 3rem;
+    margin: .5rem;
+    padding: .5rem 3% 1.5rem;
 }
 
 .logofooter{
-    height:6rem;
+    height: 3rem;
     background-color: white;
-}
-    p {
-    overflow: hidden;
-}
+    width:auto;
+    padding: .5rem 5%;
+    float:right;
     
+    
+}
+footer p {
+    overflow: hidden;
+    line-height: 1.5rem;
+    padding:1rem 5%;
+}
+
+.dropcap:first-letter {
+    font-size: 3rem;
+    color: #ff0000;
+    overflow:hidden;
+}
     
     
     
