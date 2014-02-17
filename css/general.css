@@ -43,10 +43,10 @@ header {
 .logo {
     height:6rem;
     background-color: white;
-    width: auto;
+    width:100%
     padding: .5rem;
-    margin:1.5rem auto;
-}
+    position: center center;
+   }
 
 .billboard {
     height: 23rem;
