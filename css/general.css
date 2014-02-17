@@ -19,8 +19,9 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    
-}
+    background-image: url(../images/backgroundnoisepattern.jpg);
+    background-size: 20rem;
+    }
 
 img {
 	width: 100%;
@@ -36,7 +37,7 @@ header {
     overflow: hidden;
     background-image: url(../images/backgroundnoisepattern.jpg);
     background-size: 20rem
-    }
+}
 
 .logo {
     height:6rem;
@@ -45,6 +46,7 @@ header {
     padding: 0 2.5% 0;
     margin:1.5rem auto;
 }
+
 .billboard {
     height: 23rem;
     background-size: 50rem;
@@ -54,6 +56,7 @@ header {
     background-position: center top;
     background-color: #669999;
 }
+
 h1 {
     font-size: 3.4rem;
     text-align: center;
@@ -102,13 +105,35 @@ footer {
     width:auto;
     padding: .5rem 5%;
     float:right;
-    
-    
 }
+
 footer p {
     overflow: hidden;
     line-height: 1.5rem;
     padding:1rem 5%;
+}
+
+figure {
+    margin: 1.5rem 10% 1.5rem;
+    border-style: solid;
+    background-color: white
+}
+
+figcaption {
+    text-align: center;
+    font-family: Arial, "Arial-Bold", Sans-Serif;
+    margin: .5rem;
+    background-color:
+}
+
+hr + div {
+    margin: 1rem 7% 3rem;
+    background-color: white;
+    padding:1rem;
+    line-height: 1.5rem;
+    border-style: solid;
+    font-size: 1rem;
+    font-family: Arial, "Arial Bold", Sans-Serif;
 }
 
 .dropcap:first-letter {
@@ -116,6 +141,19 @@ footer p {
     color: #ff0000;
     overflow:hidden;
 }
+
+.earlycareer {
+    font-size: 1rem;
+    font-family: Arial, "Arial Bold", Sans-Serif;
+    margin: 3rem 7% 3rem;
+    background-color: white;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-style: solid;
+}
+    
+    
+    
     
     
     
