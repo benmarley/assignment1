@@ -43,8 +43,9 @@ header {
 .logo {
     height:6rem;
     background-color: white;
-    width:5rem;
-    padding: .5rem;
+    width:auto;
+    margin:.5rem auto;
+    padding: 1rem;
     overflow:hidden;
    }
 
