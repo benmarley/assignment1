@@ -77,10 +77,11 @@ h1 {
     font-family: Arial, "Arial Bold", Sans-Serif;
 }
 
-div + p {
+.largebodytext {
     font-size: 1.5rem;
     margin: 3rem 5% 1rem;
     font-family: Arial, "Arial Bold", Sans-Serif;
+    background-color: white;
 }
 
 hr {
