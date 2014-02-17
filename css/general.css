@@ -85,6 +85,7 @@ h1 {
     background-color: white;
     padding: 1rem 5%;
     line-height: 2rem;
+    border-style:solid;
 }
 
 hr {
@@ -102,7 +103,7 @@ footer {
     height: 3rem;
     background-color: white;
     width:auto;
-    padding: .5rem 5%;
+    padding: .5rem;
     float:right;
 }
 
@@ -122,7 +123,6 @@ figcaption {
     text-align: center;
     font-family: Arial, "Arial-Bold", Sans-Serif;
     margin: .5rem;
-    background-color:
 }
 
 hr + div {
@@ -136,9 +136,10 @@ hr + div {
 }
 
 .dropcap:first-letter {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #ff0000;
-    overflow:hidden;
+    float: left;
+    margin: 1rem 2% 0;
     
 }
 
@@ -151,6 +152,23 @@ hr + div {
     line-height: 1.5rem;
     border-style: solid;
 }
+
+.movielist {
+    font-size: 1rem;
+    font-family: Arial, "Arial Bold", Sans-Serif;
+    margin: 3rem 7% 3rem;
+    background-color: white;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-style: solid;
+}
+
+div span {
+    font-weight:bold;
+}
+    
+    
+    
     
     
     
