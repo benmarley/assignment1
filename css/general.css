@@ -75,7 +75,11 @@ h1 {
     border-radius: .8rem;
     box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
     border-style:solid;
+}
+
+h2 {
     font-family: Arial, "Arial Bold", Sans-Serif;
+    font-size: 2rem;
 }
 
 .largebodytext {
@@ -94,7 +98,7 @@ hr {
 
 footer {
     overflow: hidden;
-    background-color:grey;
+    background-color: #669999;
     margin: .5rem;
     padding: .5rem 3% 1.5rem;
 }
@@ -116,13 +120,14 @@ footer p {
 figure {
     margin: 1.5rem 10% 1.5rem;
     border-style: solid;
-    background-color: white
+    background-color: #669999;
+    padding: 1rem;
 }
 
 figcaption {
     text-align: center;
     font-family: Arial, "Arial-Bold", Sans-Serif;
-    margin: .5rem;
+    margin: .5rem 5% 0;
 }
 
 hr + div {
