@@ -21,6 +21,7 @@ html {
     font-size: 100%;
     background-image: url(../images/backgroundnoisepattern.jpg);
     background-size: 20rem;
+    hyphens: auto
     }
 
 img {
@@ -43,7 +44,7 @@ header {
     height:6rem;
     background-color: white;
     width: auto;
-    padding: 0 2.5% 0;
+    padding: .5rem;
     margin:1.5rem auto;
 }
 
@@ -82,15 +83,12 @@ h1 {
     margin: 3rem 5% 1rem;
     font-family: Arial, "Arial Bold", Sans-Serif;
     background-color: white;
+    padding: 1rem 5%;
+    line-height: 2rem;
 }
 
 hr {
     margin:2rem 10%;
-}
-
-hr + p {
-    margin: 3rem 5%;
-    line-height: 1.5rem
 }
 
 footer {
@@ -141,6 +139,7 @@ hr + div {
     font-size: 3rem;
     color: #ff0000;
     overflow:hidden;
+    
 }
 
 .earlycareer {
