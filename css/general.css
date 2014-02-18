@@ -172,6 +172,13 @@ hr + div {
 div span {
     font-weight:bold;
 }
+
+.pullquote {
+    margin:1.5rem 10%;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: white;
+}
     
     
     
