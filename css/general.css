@@ -188,8 +188,7 @@ blockquote {
 blockquote p:before {
     content: "“";
     font-size: 6rem;
-    margin: 1rem 0 0 -3rem;
-    padding: 
+    margin: 1rem 0 0 -3rem; 
 }
 
 blockquote p:after {
