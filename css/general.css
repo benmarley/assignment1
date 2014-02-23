@@ -21,8 +21,9 @@ html {
     font-size: 100%;
     background-image: url(../images/backgroundnoisepattern.jpg);
     background-size: 20rem;
-    hyphens: auto
-    }
+    hyphens: auto;
+    font-family: Arial, "Arial Bold", Sans-Serif;
+}
 
 img {
 	width: 100%;
@@ -36,18 +37,17 @@ body {
 
 header {
     overflow: hidden;
-    background-color: #669999;
-    background-size: 20rem
+    background-color: #333333;
 }
 
 .logo {
     height: 6rem;
     background-color: white;
     width: auto;
-    margin:.5rem auto;
+    margin: 0 auto;
     padding: 1rem;
     overflow: hidden;
-   }
+}
 
 .billboard {
     height: 23rem;
@@ -75,12 +75,14 @@ h1 {
     text-align: center;
     border-radius: .8rem;
     box-shadow: .2rem .4rem .4rem .2rem rgba(0, 0, 0, .8);
-    border-style:solid;
+    border-style: solid;
+    color: #333333;
 }
 
 h2 {
     font-family: Arial, "Arial Bold", Sans-Serif;
     font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 .largebodytext {
@@ -92,6 +94,7 @@ h2 {
     padding: 1rem 5%;
     line-height: 2rem;
     border-style: solid;
+    color: #666666;
 }
 
 .largebodytext:first-letter {
@@ -176,7 +179,7 @@ hr + div {
 }
 
 div span {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 blockquote {
@@ -200,7 +203,7 @@ blockquote p:after {
 }
 
 em {
-    color: red;
+    color: #ff0000;
 }
 
 a:link { 
@@ -208,15 +211,15 @@ a:link {
 }
 
 a:visited {
-    color: purple;
+    color: #9900ff;
 }
 
 footer p {
-    color: yellow;
+    color: #ffff00;
 }
 
 figcaption span {
-    color: black;
+    color: #000000;
 }
 
 .recentprojects {
