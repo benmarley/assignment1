@@ -184,14 +184,14 @@ div span {
 }
 
 blockquote {
-    margin: 6rem 15%;
+    margin: 6rem 15% 1rem;
     font-size: 2.5rem;
     line-height: 3rem;
     color: white;
     text-align:center;
     text-shadow: rgba(0, 0, 0, .2) .3rem .3rem;
 }
-
+    
 blockquote p:before {
     content: "“";
     font-size: 6rem;
@@ -201,6 +201,11 @@ blockquote p:before {
 blockquote p:after {
     content: "”";
     font-size: 3rem;
+}
+
+.quote {
+    color: white;
+    text-align: center;
 }
 
 em {
